@@ -1,0 +1,5 @@
+node_modules/
+.academy-progress.json
+*.log
+.DS_Store
+lesson-exapmles/big.bin

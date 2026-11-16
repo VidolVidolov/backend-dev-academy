@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es2023",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "lib": ["es2023"],
+    "types": ["node"],
+
+    "strict": true,
+
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "bin/**/*.ts",
+    "src/**/*.ts",
+    "curriculum/**/*.ts",
+    "challenges/**/*.ts",
+    "labs/**/*.ts",
+    "graduation/**/*.ts",
+    "scripts/**/*.ts",
+    "lesson-exapmles/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/_cheat.test.ts"
+  ]
+}

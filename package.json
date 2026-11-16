@@ -1,0 +1,37 @@
+{
+  "name": "backend-dev-academy",
+  "version": "1.0.0",
+  "description": "A zero-dependency CLI that trains a senior frontend dev into a senior backend/Node.js engineer.",
+  "type": "module",
+  "bin": {
+    "academy": "bin/academy.ts"
+  },
+  "scripts": {
+    "start": "node bin/academy.ts",
+    "export": "node scripts/export-curriculum.ts",
+    "test": "node --test 'challenges/**/test.ts'",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "engines": {
+    "node": ">=23.6.0"
+  },
+  "keywords": [
+    "backend",
+    "nodejs",
+    "curriculum",
+    "cli",
+    "learning"
+  ],
+  "author": "you",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.1.2",
+    "eslint": "^10.7.0",
+    "globals": "^17.7.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.65.0"
+  }
+}
